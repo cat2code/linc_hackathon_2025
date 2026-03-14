@@ -6,3 +6,49 @@ logs/
 .ipynb_checkpoints/
 *.csv
 
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Test / coverage / build artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# OS-generated archive junk
+__MACOSX/
+
+# Optional: old scratch folders
+paddy/OLD/
+
+# Optional: local data outputs only if not meant to be versioned
+# *.csv
+# *.h5
+# *.pkl
+# *.npy
