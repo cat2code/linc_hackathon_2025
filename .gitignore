@@ -1,3 +1,8 @@
 winner_2024/
 venv/
 eliot/stockPrices_hourly.csv
+**.DS_Store
+logs/
+.ipynb_checkpoints/
+*.csv
+
