@@ -1,37 +1,39 @@
+# ---- Project-specific ----
 winner_2024/
-venv/
+
+# Local data not meant for git
 eliot/stockPrices_hourly.csv
-**.DS_Store
-logs/
-.ipynb_checkpoints/
-*.csv
 
-# macOS
+# Old scratch code
+paddy/OLD/
+
+# ---- OS ----
 .DS_Store
+__MACOSX/
 
-# Python
+# ---- Python ----
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Virtual environments
+# ---- Virtual environments ----
 venv/
 .venv/
 env/
 
-# Jupyter
+# ---- Jupyter ----
 .ipynb_checkpoints/
 
-# Logs
+# ---- Logs ----
 logs/
 *.log
 
-# Editor / IDE
+# ---- Editor / IDE ----
 .vscode/
 .idea/
 
-# Test / coverage / build artifacts
+# ---- Test / coverage / build artifacts ----
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -41,14 +43,10 @@ build/
 dist/
 *.egg-info/
 
-# OS-generated archive junk
-__MACOSX/
+# ---- ML artifacts (generated) ----
+*.keras
+*.h5
+*.pkl
 
-# Optional: old scratch folders
-paddy/OLD/
-
-# Optional: local data outputs only if not meant to be versioned
-# *.csv
-# *.h5
-# *.pkl
-# *.npy
+# ---- Generated datasets ----
+*_processed.csv
