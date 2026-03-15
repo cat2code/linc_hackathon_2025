@@ -30,6 +30,8 @@ You can look at it here: https://docs.google.com/presentation/d/1uylVYmHuu4b8RpB
 
 The repo strucutre is kind of a mess (due to limited time and varying degrees of experiences in Git) but loosely you will find...
 
+`manual_handling.ipynb` - the file we used in the live scenario
+
 `given_resources` all info we got from LINC-STEM prior to the event
 
 `paddy` - the trading platform, LSTM trading strategy
