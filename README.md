@@ -5,7 +5,7 @@
 
 We were a randomly assigned team of 4 students of varying background and experiences and we implemented this repo in the span of 3 days after the broker platform API and historical dummy data was announced by LINC-STEM. 
 
-Strategy: we had limited time, but in preparation for the hackatgon trading day we set out to:
+Strategy: we had limited time, but in preparation for the hackathon trading day we set out to:
 
 1. Implement a multithreaded trading platform (required)
 2. Implement and backtest trading strategies of increasing complexity (as many as we want)
